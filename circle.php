@@ -17,9 +17,7 @@ class Circle {
     
     public function get_circle_area ()
     {
-        define("PIE", 3.14);
-        
-        $circle_area = PIE * ($this->radius * $this->radius);
+        $circle_area = pi() * ($this->radius * $this->radius);
         
         return $circle_area;
     }
